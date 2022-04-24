@@ -1,7 +1,7 @@
 # KinoBoom-TelegramBot
 WARNING!!! THE BOT IS STILL IN DEVELOPMENT! SOME THINGS MAY NOT WORK CORRECTLY
 
-This is my pet-project related to telegram bots
+This is my pet-project related to telegram bots.
 This bot is associated with the theme of films and TV shows.
 
 I used the aiogram library as the main one to create a telegram bot.
