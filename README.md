@@ -2,7 +2,7 @@
 WARNING!!! THE BOT IS STILL IN DEVELOPMENT! SOME THINGS MAY NOT WORK CORRECTLY
 
 This is my pet-project related to telegram bots.
-This bot is associated with the theme of films and TV shows.
+This bot is associated with the theme of films and series.
 
 I used the aiogram library as the main one to create a telegram bot.
 To get information about the ratings of movies, TV shows, etc., I used the TMDB api and parsed the data from there.
