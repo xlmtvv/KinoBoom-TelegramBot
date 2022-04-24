@@ -29,7 +29,10 @@ def parsing_top250():
     for movie in data:
         list_movies += f'🎬Название: {movie[1]}\n📅Дата выхода: {movie[2][-4::1]}\n📃Жанр: {movie[4]}\n📌Ссылка: {movie[0]}\n\n'
     return list_movies
-list_movies_txt = {'/ru':'''🔝Список лучших фильмов за все время:
+
+# I parsed a kinopoisk and transferred the data to a constant for convenience
+
+list_movies_txt = '''🔝Список лучших фильмов за все время:
 
 🎬Название: Зеленая миля
 📅Дата выхода: 1999
@@ -71,11 +74,6 @@ list_movies_txt = {'/ru':'''🔝Список лучших фильмов за в
 📃Жанр: фантастика, драма
 📌Ссылка: https://www.kinopoisk.ru/film/258687/
 
-🎬Название: Иван Васильевич меняет профессию
-📅Дата выхода: 1973
-📃Жанр: комедия, фантастика
-📌Ссылка: https://www.kinopoisk.ru/film/42664/
-
 🎬Название: Тайна Коко
 📅Дата выхода: 2017
 📃Жанр: мультфильм, фэнтези
@@ -100,71 +98,4 @@ list_movies_txt = {'/ru':'''🔝Список лучших фильмов за в
 📅Дата выхода: 2010
 📃Жанр: фантастика, боевик
 📌Ссылка: https://www.kinopoisk.ru/film/447301/
-''',
-                   '/en':''' 🔝 List of the best films:
-
-🎬 Title: The Green Mile
-📅 Release Date: 1999
-📃 Genre: Drama, crime
-📌 Link: https://www.imdb.com/title/tt0120689/
-
-🎬 Title: The Shawshank Redemption
-📅 Release Date: 1994
-📃Genre: Drama
-📌 Link: https://www.imdb.com/title/tt0111161/
-
-🎬 Title: The Lord of the Rings: The Return of the King
-📅 Release Date: 2003
-📃 Genre: Fantasy, adventure
-📌 Link: https://www.imdb.com/title/tt0167260/
-
-🎬 Title: The Lord of the Rings: The Two Towers
-📅 Release Date: 2002
-📃 Genre: Fantasy, adventure
-📌 Link: https://www.imdb.com/title/tt0167261/
-
-🎬 Title: The Lord of the Rings: The Fellowship of the Ring
-📅 Release Date: 2001
-📃 Genre: Fantasy, adventure
-📌 Link: https://www.imdb.com/title/tt0120737/
-
-🎬 Title: Forrest Gump
-📅 Release Date: 1994
-📃 Genre: Drama, Comedy
-📌 Link: https://www.imdb.com/title/tt0109830/
-
-🎬 Title: The Lion King
-📅 Release Date: 1994
-📃 Genre: cartoon, musical
-📌 Link: https://www.imdb.com/title/tt0110357/
-
-🎬 Name: Interstellar
-📅 Release Date: 2014
-📃 Genre: Science fiction, drama
-📌 Link: https://www.imdb.com/title/tt0816692/
-
-🎬 Title: Coco
-📅 Release Date: 2017
-📃 Genre: cartoon, fantasy
-📌 Link: https://www.imdb.com/title/tt2380307/
-
-🎬 Title: 1+1 (The Intouchables)
-📅 Release Date: 2011
-📃 Genre: Drama, Comedy
-📌 Link: https://www.imdb.com/title/tt1675434/
-
-🎬 Title: Pulp fiction
-📅 Release Date: 1994
-📃 Genre: Crime, Drama
-📌Link: https://www.imdb.com/title/tt0110912/
-
-🎬 Title: Schindler's List
-📅 Release Date: 1993
-📃 Genre: drama, biography
-📌 Link: https://www.imdb.com/title/tt0108052/
-
-🎬Title: Inception
-📅 Release Date: 2010
-📃 Genre: Science fiction, action
-📌 Link: https://www.imdb.com/title/tt1375666/
-'''}
+'''
