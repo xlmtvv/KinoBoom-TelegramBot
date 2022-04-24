@@ -1,0 +1,5 @@
+# --- WARNING ---
+# This is an example of a config.py file that stores Tokens and Keys
+
+TK = 'YOUR TELEGRAM TOKEN'
+TMDB_API = 'YOUR TMDB TOKEN'
